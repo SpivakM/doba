@@ -12,7 +12,7 @@ const LVIV_ROUTES: RouteItem[] = [
     distance: '2.33 km',
     duration: '35 min',
     rating: '4.9',
-    imageUrl: 'https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=300&q=80',
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_yGuOXzdFdT0u1emI3lPiX0zK26AyKB6uvGPdY2Fgqg&s=10', // Львівська опера / Площа Ринок
   },
   {
     id: '2',
@@ -20,7 +20,7 @@ const LVIV_ROUTES: RouteItem[] = [
     distance: '3.10 km',
     duration: '50 min',
     rating: '4.8',
-    imageUrl: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=300&q=80',
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVKVP_YLSt9TUHMAnhFRvvs9b8LwStkJ32BQg9iMsLhA&s=10', // Будинок вчених / Австрійська архітектура
   },
   {
     id: '3',
@@ -28,7 +28,7 @@ const LVIV_ROUTES: RouteItem[] = [
     distance: '1.80 km',
     duration: '40 min',
     rating: '4.7',
-    imageUrl: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=300&q=80',
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFrLZVZGZTinrbwhDEcxf_WaON13v_020Vfq_7cfUe3g&s=10', // Високий замок
   },
   {
     id: '4',
@@ -36,7 +36,7 @@ const LVIV_ROUTES: RouteItem[] = [
     distance: '1.50 km',
     duration: '30 min',
     rating: '4.9',
-    imageUrl: 'https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=300&q=80',
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKF12qSB9qloio621ayPXGdRFM3NddY-HNKKzB7b4h9Q&s=10', // Дворик загублених іграшок / Італійський дворик
   },
   {
     id: '5',
@@ -44,7 +44,7 @@ const LVIV_ROUTES: RouteItem[] = [
     distance: '2.70 km',
     duration: '1 h 10 min',
     rating: '4.8',
-    imageUrl: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=300&q=80',
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt5dbcrpMPU_zxvcU_LhP7bqK6tmkduUl4vsdt_MvslA&s=10', // Личаківський цвинтар[cite: 5]
   },
 ];
 
@@ -72,7 +72,7 @@ export const MapScreen: React.FC<MapScreenProps> = ({ navigation }) => {
         <View style={styles.mapContainer}>
           <Image
             source={{
-              uri: 'https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=1000&q=80',
+              uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzLz0kMw4mPQPAhVhK7m6egO6gxBqyf1s8tLBcAcG5Xg&s=10',
             }}
             style={styles.mapImage}
           />
