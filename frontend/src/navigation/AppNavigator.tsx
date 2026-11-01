@@ -17,7 +17,8 @@ export const AppNavigator = () => {
       <Stack.Screen name="ARScanner" component={ARScannerScreen} />
       <Stack.Screen name="Map" component={MapScreen} />
       <Stack.Screen name="Landmarks" component={LandmarksScreen} />
-      <Stack.Screen name="AIGuide" component={AIGuideScreen} />
+      <Stack.Screen name="AIGuide" component={AIGuideScreen} options={{ headerShown: false }}
+      />
     </Stack.Navigator>
   );
 };
